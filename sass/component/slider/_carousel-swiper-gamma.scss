@@ -21,13 +21,16 @@
             display: block;
             position: relative;
             width: 100%;
-            background: $black;
+            background: #1d1d1d;
             overflow: hidden;
             transition: 0.15s;
             .img,
             img{
                 width: 100%;
                 display: block;
+                &.testimonial-img {
+                    max-width: 300px;
+                }
             }
         }
         .legend{

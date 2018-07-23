@@ -2010,6 +2010,9 @@ textarea {
     .carousel-swiper-alpha .slider-container .illustr img {
       width: 100%;
       display: block; }
+    .carousel-swiper-alpha .slider-container .illustr img.testimonial-img {
+      max-width: 300px;
+    }
     .carousel-swiper-alpha .slider-container .legend {
       display: block;
       margin-top: 1.5rem;
