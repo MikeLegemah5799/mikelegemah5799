@@ -2602,7 +2602,7 @@ textarea {
       width: auto; }
       @media (min-width: 768px) {
         .page-header-alpha .navbar-brand .logo img {
-          height: 48px; } }
+          height: 80px; } }
     .page-header-alpha .navbar-brand .text {
       display: -webkit-box;
       display: -ms-flexbox;
