@@ -4652,7 +4652,9 @@ textarea {
       margin-left: -8px; }
 
 .project-slider {
-  padding: 0; }
+  padding: 0;
+  background: #000;
+  }
   .project-slider .fp-controlArrow {
     background: rgba(0, 0, 0, 0.2);
     top: 66px;
@@ -5633,3 +5635,7 @@ p {
 /* ipad and tablet */
 /* ipad and tablet */
 /* phone */
+
+.services-section {
+  background: #000;
+}
