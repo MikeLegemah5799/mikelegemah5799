@@ -1,1177 +1,806 @@
-<!doctype html>
-
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-  <!-- Mike Legemah Here -->
-  <title>Michael Legemah | Portfolio</title>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Web Engineer/Web Developer in New York | Michael Legemah</title>
+    <meta name="description" content="Michael Legemah is a Web Engineer/Developer and chef based in the New York City Area">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Web Engineer/Web Developer in New York | Michael Legemah">
+    <meta property="og:description" content="Michael Legemah is a Web Engineer/Developer and chef based in the New York City Area">
+    <meta property="og:url" content="http://michaellegemah.com/">
+    <meta property="og:site_name" content="Michael Legemah">
+    <meta property="og:image" content="http://michaellegemah.com/images/mike-logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="Michael Legemah is a Web Engineer/Developer and chef based in the New York City Area">
+    <meta name="twitter:title" content="Web Engineer/Web Developer in New York | Michael Legemah">
+    <meta name="twitter:site" content="@MikeLegemah">
+    <meta name="twitter:image" content="http://michaellegemah.com/images/mike-logo.png">
+    <meta name="twitter:creator" content="@MikeLegemah">
 
-  <!-- Meta -->
-  <!-- Page Description Here -->
-  <meta name="description" content="Michael Legemah Personal Portfolio">
 
-  <!-- Disable screen scaling-->
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Twitter Meta -->
-  <meta name="twitter:site" content="@mikelegemah">
-  <meta name="twitter:creator" content="@mikelegemah">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Mike Legemah">
-  <meta name="twitter:description" content="Michael Legemah Personal Portfolio">
-  <meta name="twitter:image" content="/img/bg-default.jpg">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-  <!-- Facebook Meta -->
-  <meta property="og:url" content="https://mikelegemah5799.github.io/mikelegemah5799/">
-  <meta property="og:title" content="Mike Legemah">
-  <meta property="og:description" content="Michael Legemah Personal Portfolio">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="/img/bg-default.jpg">
-  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
-  <meta property="og:image:type" content="image/jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-  <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
-  <!-- Web fonts and Web Icons -->
-  <link rel="stylesheet" href="./fonts/opensans/stylesheet.css">
-  <link rel="stylesheet" href="./fonts/bebas/stylesheet.css">
-  <link rel="stylesheet" href="./fonts/ionicons.min.css">
-  <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="http://michaellegemah.com/favicon.ico?v=2">
+    <link rel="icon" href="http://michaellegemah.com/favicon.ico?v=2">
 
-  <!-- Vendor CSS style -->
-  <link rel="stylesheet" href="./css/pageloader.css">
-
-  <!-- Uncomment below to load individualy vendor CSS -->
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./js/vendor/swiper.min.css">
-  <link rel="stylesheet" href="./js/vendor/jquery.fullpage.min.css">
-  <link rel="stylesheet" href="./js/vegas/vegas.min.css">
-
-  <!-- Main CSS files -->
-  <link rel="stylesheet" href="./css/main.css">
-
-  <!-- add alt layout here -->
-  <!--<link rel="stylesheet" href="./css/style-default.css">-->
-
-  <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
 
-<body id="menu" class="body-page">
-  <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<body id="top">
 
-  <!-- Page Loader : just comment these lines to remove it -->
-  <div class="page-loader" id="page-loader">
-    <div>
-      <div class="icon ion-spin"></div>
-      <p>loading</p>
-    </div>
-  </div>
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-  <!-- BEGIN OF site header Menu -->
-  <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
-
-    <!-- Begin of menu icon toggler -->
-    <!-- <button class="navbar-toggler site-menu-icon" id="navMenuIcon"> -->
-      <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
-     <!-- <span class="menu-icon menu-icon-normal">
-        <span class="bars">
-          <span class="bar1"></span>
-          <span class="bar2"></span>
-          <span class="bar3"></span>
-        </span>
-      </span>
-    </button> -->
-    <!-- End of menu icon toggler -->
-
-    <!-- Begin of logo/brand -->
-    <a class="navbar-brand" href="./#">
-      <span class="logo">
-        <img class="light-logo" src="img/mike-logo.png" alt="Logo">
-      </span>
-      <span class="text">
-        <!-- <span class="line">Michael Legemah</span> -->
-        <span class="line sub">Portfolio Website</span>
-      </span>
-    </a>
-    <!-- End of logo/brand -->
-
-    <!-- begin of menu wrapper -->
-    <div class="all-menu-wrapper" id="navbarMenu">
-      <!-- Begin of top menu -->
-      <nav class="navbar-topmenu">
-        
-        <!-- End of CTA & Icons menu -->
-      </nav>
-      <!-- End of top menu -->
-
-      <!-- Begin of hamburger mainmenu menu -->
-      <nav class="navbar-mainmenu">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html#home">Home
-              <span class="sr-only">(current)</span>
+        <div class="header-logo">
+            <a class="site-logo" href="http://michaellegemah.com">
+                <img src="images/mike-logo.png" alt="Mike Legemah Logo">
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./item.html">Item</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./demo.html">Demo</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- End of hamburger mainmenu menu -->
-
-    </div>
-    <!-- end of menu wrapper -->
-
-  </header>
-  <!-- END OF site header Menu-->
-
-  <!-- BEGIN OF page cover -->
-  <div class="hh-cover page-cover">
-    <!-- Cover Background -->
-    <div class="cover-bg bg-img" data-image-src="img/code-colors.jpg"></div>
-
-    <!-- Particles as background - uncomment below to use particles/snow -->
-    <div id="particles-js" class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
-  </div>
-  <!--END OF page cover -->
-
-  <!-- BEGIN OF page main content -->
-  <main class="page-main page-fullpage main-anim" id="mainpage">
-
-    <!-- Begin of home section -->
-    <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered"
-    data-section="home">
-      <!-- Begin of section wrapper -->
-      <div class="section-wrapper fullwidth with-margin v-center">
-        <!-- content -->
-        <div class="section-content anim">
-          <div class="row">
-            <div class="col-12 col-lg-6 text-left">
-              <!-- title and description -->
-              <div class="title-desc">
-                <h1 class="display-4 display-title home-title decor anim-1">Michael Legemah</h1>
-                <h4 class="anim-2">Yeah that's me and this is my portfolio</h4>
-                <p class="anim-2"></p>
-              </div>
-
-              <!-- Action button -->
-              <div class="btns-action anim-3">
-                <a class="btn btn-circicon btn-primary" href="#about">
-                  <span class="icon">
-                    <i class="ion ion-chevron-down"></i>
-                  </span>
-                  <span class="text">About</span>
-                </a>
-              </div>
-            </div>
-
-          </div>
         </div>
 
-        <div class="section-aside aside-bottom">
-          <div class="text-right">
+        <nav class="header-nav">
 
-          </div>
-          <!-- Action button -->
-          <div class="btns-action anim-3 text-right">
-            <a class="btn btn-outline-white btn-round" href="#register">
-              Contact
-            </a>
-          </div>
-        </div>
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
-
-        <!-- Arrows scroll down/up -->
-        <footer class="section-footer scrolldown">
-          <a class="down">
-            <span class="icon"></span>
-            <span class="txt">Scroll Down</span>
-          </a>
-        </footer>
-      </div>
-      <!-- End of section wrapper -->
-    </div>
-    <!-- End of home section -->
-
-    <!-- Begin of description section -->
-    <div class="section section-description fp-auto-height-responsive " data-section="about">
-      <!-- Begin of section wrapper -->
-      <div class="section-wrapper fullwidth with-margin">
-
-        <!-- content -->
-        <div class="section-content anim">
-          <div class="row">
-            <div class="col-12 col-md-6 text-left">
-              <!-- title and description -->
-              <div class="title-desc">
-                <h1 class="display-4 display-title anim-1">About</h1>
-                <h4 class="anim-2">I do code, coffee, and consistency. Not neccessarily in that order.</h4>
-                <p class="anim-2">I'm a Web Developer with alot of experience in Front End stuff, but I've been known to mix it up with the Back End when I need to.
-                </p>
-              </div>
-
-              <!-- Action button -->
-              <div class="btns-action anim-3">
-                <a class="btn btn-circicon btn-primary" href="#projects-featured">
-                  <span class="icon">
-                    <i class="ion ion-chevron-down"></i>
-                  </span>
-                  <span class="text">Selected Works</span>
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- aside -->
-        <div class="section-aside aside-bottom anim small-relative">
-          <div class="a-wrapper anim-4">
-            <!-- begin of slider carousel-swiper-alpha -->
-            <div class="slider-wrapper carousel-swiper-alpha carousel-swiper-alpha-demo">
-              <!-- slider -->
-              <div class="slider-container swiper-container">
-                <ul class="item-list swiper-wrapper">
-                  <!-- item -->
-                  <li class="slide-item swiper-slide">
-                    <div class="item-wrapper">
-                      <div class="illustr">
-                        <img src="img/items/alla.jfif" alt="Alla" class="img testimonial-img">
-                      </div>
-                      <div class="legend">
-                        <h3 class="title">All Gringaus</h3>
-                        <h4>Director, UX &amp; Design, American Kennel Club</h4>
-                        <p>&ldquo;Mike has a very solid front-end development experience in a scrum/agile development environment, with deep expertise in Wordpress and Shopify. He is adept at creating customer-focused, mobile-responsive UI with UX in mind. Self-directed and comfortable working on a small team with significant responsibility, Mike is a reliable, polite, kind and humble guy everyone wants to have on their side. It was a real pleasure to work with Mike.&rdquo;</p>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- item -->
-                  <li class="slide-item swiper-slide">
-                    <div class="item-wrapper">
-                      <div class="illustr">
-                        <img src="img/items/mo-akram.jpg" alt="Mo Akram" class="img testimonial-img">
-                      </div>
-                      <div class="legend">
-                        <h3 class="title">Mo Akram</h3>
-                        <h4>AVP of Salaried Professional Services, Robert Half Technology</h4>
-                        <p>&ldquo;Michael played an integral part in the growth of Robert Half Technology's Salaried Professional Services. During his tenure with Robert Half Technology's Salaried Professional Services, Michael partnered with multiple clients, leading their Web &amp; Creative Development initiatives. Michael collaborated with senior leadership &amp; c-level executives to identify &amp; translate specific needs bringing them to life, in addition to being a trusted adviser on overall direction of the engagements. Michael always stayed one step ahead of tech trends and best practices. Being a motivated team player and leader, Michael has a keen eye for the bigger picture. Throughout his engagements, Michael was highly recommended for his Full Stack Development, Front End Development, and creative eye for design. Michael is a valuable asset to any organization.&rdquo;</p>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- item -->
-                  <li class="slide-item swiper-slide">
-                    <div class="item-wrapper">
-                      <div class="illustr">
-                        <img src="img/items/mary.jfif" alt="Mary" class="img testimonial-img">
-                      </div>
-                      <div class="legend">
-                        <h3 class="title">Mary Pinto-Meyer</h3>
-                        <h4>Regional HR Director, Access Intelligence</h4>
-                        <p>&ldquo;Michael started a temporary assignment with our organization a few months ago. It started as a few week assignment, and has continued to be extended because of his great work. He is professional and has a wonderful demeanor that works well with clients.&rdquo;</p>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- item -->
-                  <li class="slide-item swiper-slide">
-                    <div class="item-wrapper">
-                      <div class="illustr">
-                        <img src="img/items//debra-reiss.jpg" alt="Debra Reiss" class="img testimonial-img">
-                      </div>
-                      <div class="legend">
-                        <h3 class="title">Debra Reiss</h3>
-                        <h4>Psychotherapist, Debra Reiss LCSW</h4>
-                        <p>&ldquo;Michael is an absolute pleasure to work with. He helped me with my existing website fixing a problem promptly, expertly, and graciously. He was able to diagnose a problem no one else seemed to understand, he took initiative, solved the problem, and had me up and running quickly. He's also a great communicator, and as a non-tech person I was able to understand all his explanations and instructions very easily. I am no longer afraid of web-based problems now that I have Michael's help. He is my new go-to-guy and I look forward to our continued relationship. I recommend Michael highly.&rdquo;</p>
-                      </div>
-                    </div>
-                  </li>
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#work" title="work">Work</a></li>
+                    <li><a class="smoothscroll"  href="#tech" title="tech">Tech/Software</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
-              </div>
-              <!-- pagination -->
-              <div class="items-pagination bar"></div>
-
-            </div>
-            <!-- end of slider carousel-swiper-alpha -->
-
-          </div>
-        </div>
-
-
-        <!-- Arrows scroll down/up -->
-        <footer class="section-footer scrolldown">
-          <a class="down">
-            <span class="icon"></span>
-            <span class="txt">Works</span>
-          </a>
-        </footer>
-      </div>
-      <!-- End of section wrapper -->
-    </div>
-    <!-- End of description section -->
-
-    <!-- Begin of slider section -->
-    <div class="section section-twoside project-slider fp-auto-height-responsive" data-section="projects-featured">
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr">
-              <img class="img img-block" src="img/items/bmi-calculator.jpg" alt="BMI Calculator">
-            </div>
-            <div class="legend">
-              <a href="https://pw1r6yroj0.codesandbox.io/"> 
-                <h3>BMI Calculator</h3>
-                <h4>React Web App</h4>
-                <p>Web app built in ReactJS to calculate BMI using height and weight.</p>
-             </a>
-              <a class="btn btn-transp-arrow btn-primary" href="https://pw1r6yroj0.codesandbox.io/">
-                <span class="text">Details</span>
-                <span class="icon arrow-right"></span> 
-              </a>
-              <!--<div class="icons">
-                <a class="icon-btn" href="#">
-                  <i class="icon fa fa-instagram"></i>
-                </a>
-                <a class="icon-btn" href="#">
-                  <i class="icon fa fa-twitter"></i>
-                </a>
-              </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr">
-              <img class="img img-block" src="img/items/robofriends.jpg" alt="JS Dice Game">
-            </div>
-            <div class="legend">
-              <a href="https://n40lm0llj0.codesandbox.io/"> 
-                <h3>RoboFriends Web App</h3>
-                <h4>Web Application</h4>
-                <p>Web Application using React.</p>
-              </a>
-              <a class="btn btn-transp-arrow btn-primary" href="https://n40lm0llj0.codesandbox.io/">
-                <span class="text">Details</span>
-                <span class="icon arrow-right"></span>
-              </a>
-              <!--<div class="icons">
-                <a class="icon-btn" href="#">
-                  <i class="icon fa fa-instagram"></i>
-                </a>
-                <a class="icon-btn" href="#">
-                  <i class="icon fa fa-twitter"></i>
-                </a>
-              </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr">
-              <img class="img img-block" src="img/items/reddit-api-access.jpg" alt="Reddit API Viewer">
-            </div>
-            <div class="legend">
-              <a href="https://zyn7vv1vm.codesandbox.io/">
-                <h3>Leveraging Reddit API</h3>
-                <h4>React Web App</h4>
-                <p>Accessing subreddits through Reddit API</p>
-              </a>
-              <a class="btn btn-transp-arrow btn-primary" href="https://zyn7vv1vm.codesandbox.io/">
-                <span class="text">Details</span>
-                <span class="icon arrow-right"></span>
-              </a>
-              <!--<div class="icons">
-                <a class="icon-btn" href="#">
-                  <i class="icon fa fa-instagram"></i>
-                </a>
-                <a class="icon-btn" href="#">
-                  <i class="icon fa fa-twitter"></i>
-                </a>
-              </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr">
-              <img class="img img-block" src="img/items/js-dice-game.jpg" alt="JS Dice Game">
-            </div>
-            <div class="legend">
-              <a href="https://mikelegemah5799.github.io/js-dice/"> 
-                <h3>JS Dice</h3>
-                <h4>Web Application</h4>
-                <p>Web Application using Vanilla Javascript.</p>
-              </a>
-              <a class="btn btn-transp-arrow btn-primary" href="https://mikelegemah5799.github.io/js-dice/">
-                <span class="text">Details</span>
-                <span class="icon arrow-right"></span>
-              </a>
-              <!--<div class="icons">
-                <a class="icon-btn" href="#">
-                  <i class="icon fa fa-instagram"></i>
-                </a>
-                <a class="icon-btn" href="#">
-                  <i class="icon fa fa-twitter"></i>
-                </a>
-              </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Arrows scroll down/up -->
-      <footer class="section-footer scrolldown">
-        <a class="down">
-          <span class="icon"></span>
-          <span class="txt">All Works</span>
-        </a>
-      </footer>
-
-    </div>
-    <!-- End of slider section -->
-
-    <!-- Begin of list projects section -->
-    <div class="section section-list-feature fp-auto-height-responsive " data-section="projects">
-
-      <!-- Begin of section wrapper -->
-      <div class="section-wrapper fullwidth with-margin">
-        <!-- content -->
-        <div class="section-content anim">
-          <div class="row">
-            <div class="col-12 col-lg-6 text-left">
-              <!-- title and description -->
-              <div class="title-desc">
-                <h2 class="display-4 display-title anim-1">Projects</h2>
-                <p class="anim-2">Here's a list of my projects:
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- project list -->
-          <div class="project-list grid-1 grid-md-2 grid-lg-3 anim-list">
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="img/items/akc.jpg" alt="AKC Dog Food Quiz">
-              </div>
-              <div class="media-body">
-                <!-- <a href="item.html#project_url"> -->
-                  <h4>AKC Dog Food Quiz</h4>
-                  <h3>Web Application</h3>
-                  
-                <!-- </a> -->
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="https://www.akc.org/dog-food-quiz/" target="_blank">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="img/items/women-in-digital.jpg" alt="2018 Cynopsis Women In Digital Awards">
-              </div>
-              <div class="media-body">
-                <!-- <a href="item.html#project_url"> -->
-                  <h4>2018 Cynopsis Women In Digital Awards</h4>
-                  <h3>Website</h3>
-                  
-                <!-- </a> -->
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="http://www.cynopsis.com/events/2018-top-women-in-digital/" target="_blank">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="img/items/recognition-source.jpg" alt="Recognition Source">
-              </div>
-              <div class="media-body">
-                <!-- <a href="item.html#project_url"> -->
-                  <h4>Recognition Source</h4>
-                  <h3>E-Commerce Website Built in Shopify</h3>
-                  
-                <!-- </a> -->
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="https://www.recognitionsource.com/" target="_blank">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a> 
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="img/items/marinela-usa.jpg" alt="Marinela USA">
-              </div>
-              <div class="media-body">
-                <!-- <a href="item.html#project_url"> -->
-                  <h4>Marinela USA</h4>
-                  <h3>Website</h3>
-                  
-                <!-- </a> -->
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="https://marinelausa.com/en" target="_blank">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="img/items/folio-eddie-ozzies.jpg" alt="Folio Awards">
-              </div>
-              <div class="media-body">
-                <!-- <a href="item.html#project_url"> -->
-                  <h4>Folio Eddie and Ozzie Awards</h4>
-                  <h3>Website</h3>
-                  
-                <!-- </a> -->
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="http://www.folioawards.com/" target="_blank">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="img/items/optioncare.jpg" alt="Option Care">
-              </div>
-              <div class="media-body">
-                <!-- <a href="item.html#project_url"> -->
-                  <h4>Option Care</h4>
-                  <h3>Website</h3>
-                  
-                <!-- </a> -->
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="http://optioncare.com/" target="_blank">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a> 
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="img/items/star-wars-quote-generator.jpg" alt="Folio Awards">
-              </div>
-              <div class="media-body">
-                <!-- <a href="item.html#project_url"> -->
-                  <h4>Star Wars Random Quote Generator</h4>
-                  <h3>Web App</h3>
-                  
-                <!-- </a> -->
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="https://mikelegemah5799.github.io/star-wars-random-quote-generator/" target="_blank">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-            <!-- an item -->
-
-          </div>
-
-        </div>
-
-
-
-
-        <!-- Arrows scroll down/up -->
-        <footer class="section-footer scrolldown">
-          <a class="down">
-            <span class="icon"></span>
-            <span class="txt">Services</span>
-          </a>
-        </footer>
-      </div>
-      <!-- End of section wrapper -->
-    </div>
-    <!-- End of list projects section -->
-
-    <!-- Begin of list feature section -->
-    <div class="section section-list-feature fp-auto-height-responsive " data-section="services">
-      <!-- section cover -->
-      <!--<div class="section-cover-full bg-img" data-image-src="./img/sections/services.png">
-      </div>-->
-
-      <!-- Begin of section wrapper -->
-      <div class="section-wrapper fullwidth with-margin services-section">
-        <!-- content -->
-        <div class="section-content anim">
-          <div class="row">
-            <div class="col-12 col-lg-6 text-left">
-              <!-- title and description -->
-              <div class="title-desc">
-                <h2 class="display-4 display-title anim-1">Services</h2>
-                <p class="anim-2">Some things that I do very well that make my clients happy and profitable.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- service list -->
-          <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list decor">
-            <!-- an item -->
-            <div class="item media">
-              <div class="img">
-                <i class="icon ion-code-working"></i>
-              </div>
-              <div class="media-body">
-                <h4>Coding</h4>
-                <p>The meat and potatoes of what I do mostly.</p>
-
-                <!-- <a class="btn btn-transp-arrow btn-primary" href="">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a> -->
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media">
-              <div class="img">
-                <i class="icon ion-ios-cog-outline"></i>
-              </div>
-              <div class="media-body">
-                <h4>Website architechture and set up</h4>
-                <p>I can plan it, assess the neccessary nuts and bolts and articulate it to stakeholders.</p>
-
-
-                <!-- <a class="btn btn-transp-arrow btn-primary" href="">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a> -->
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media">
-              <div class="img">
-                <i class="icon ion-ios-analytics-outline"></i>
-              </div>
-              <div class="media-body">
-                <h4>Analytics</h4>
-                <p>I do a little something with Google Analytics.</p>
-
-                <!-- <a class="btn btn-transp-arrow btn-primary" href="">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a> -->
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media">
-              <div class="img">
-                <i class="icon ion-ios-grid-view-outline"></i>
-              </div>
-              <div class="media-body">
-                <h4>SEO</h4>
-                <p>I know how to help with keyword density and relevant content to help boost search rankings.</p>
-
-                <!-- <a class="btn btn-transp-arrow btn-primary" href="">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a> -->
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media">
-              <div class="img">
-                <i class="icon ion-ios-locked-outline"></i>
-              </div>
-              <div class="media-body">
-                <h4>Compliance and Security</h4>
-                <p>I also have done HIPAA compliant sites and protected PII.</p>
-
-                <!-- <a class="btn btn-transp-arrow btn-primary" href="">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a> -->
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media">
-              <div class="img">
-                <i class="icon ion-ios-search"></i>
-              </div>
-              <div class="media-body">
-                <h4>Web Accessibility</h4>
-                <p>I know about the WCAG 2.1 standards. I have a checklist.</p>
-
-                <!-- <a class="btn btn-transp-arrow btn-primary" href="">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a> -->
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media">
-              <div class="img">
-                <i class="icon ion-ios-cloud-outline"></i>
-              </div>
-              <div class="media-body">
-                <h4>Cloud</h4>
-                <p>I've used AWS a bit.</p>
-
-                <!-- <a class="btn btn-transp-arrow btn-primary" href="">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a> -->
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media">
-              <div class="img">
-                <i class="icon ion-ios-game-controller-a-outline"></i>
-              </div>
-              <div class="media-body">
-                <h4>Entertainment</h4>
-                <p>I'm a retro gamer!</p>
-
-                <!-- <a class="btn btn-transp-arrow btn-primary" href="">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a> -->
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-
-        <!-- Arrows scroll down/up -->
-        <footer class="section-footer scrolldown">
-          <a class="down">
-            <span class="icon"></span>
-            <span class="txt">Projects</span>
-          </a>
-        </footer>
-      </div>
-      <!-- End of section wrapper -->
-    </div>
-    <!-- End of list feature section -->
-
-
-    <!-- Begin of list products section -->
-  <!--  <div class="section section-grid fp-auto-height-responsive section-centered" data-section="products"> -->
-      <!-- Begin of section wrapper -->
-<!--      <div class="section-wrapper fullwidth with-margin">
-
-
-        <div class="section-content mb-3">
-          <div class="row">
-            <div class="col-12 col-lg-6 text-left"> -->
-              <!-- title and description -->
-           <!--   <div class="title-desc">
-                <h2 class="display-4 display-title anim-1">Products</h2>
-                <p class="anim-2">List of products. Lorem ipsum magicum dolor sit amet, consectetur
-                  adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum
-                  a sit amet nulla.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      -->
-        <!-- Begin of item list -->
-     <!--   <div class="section-content row justify-content-between"> -->
-          <!-- item  -->
-      <!--    <div class="col-12 col-sm-6 col-lg-4 center-vh">
-            <div class="section-content anim translateUp">
-              <div class="images text-center">
-                <div class="img-frame-normal">
-                  <div class="img-1 shadow">
-                    <a href="item.html#project_url">
-                      <img class="img" src="img/items/img-sample5.jpg" alt="Image">
-                    </a>
-                    <span class="price bottom">
-                      $39.99
-                    </span>
-                  </div>
-                  <div class="legend text-center decor">
-                    <h3 class="decor">
-                      <strong>Fish Game</strong>
-                    </h3>
-                    <p>This is just a placeholder text.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- item  -->
-        <!--  <div class="col-12 col-sm-6 col-lg-4 center-vh">
-            <div class="section-content anim">
-              <div class="images text-center">
-                <div class="img-frame-normal">
-                  <div class="img-1 shadow">
-                    <a href="item.html#project_url">
-                      <img class="img" src="img/items/img-sample6.jpg" alt="Image">
-                    </a>
-                    <span class="price bottom">
-                      $39.99
-                    </span>
-                  </div>
-                  <div class="legend text-center decor">
-                    <h3 class="display-normal">
-                      <strong>Bird App</strong>
-                    </h3>
-                    <p>This is just a placeholder text.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- item  -->
-        <!--  <div class="col-12 col-sm-6 col-lg-4 center-vh">
-            <div class="section-content anim translateDown">
-              <div class="images text-center">
-                <div class="img-frame-normal">
-                  <div class="img-1 shadow">
-                    <a href="item.html#project_url">
-                      <img class="img" src="img/items/img-sample7.jpg" alt="Image">
-                    </a>
-                    <span class="price bottom">
-                      $39.99
-                    </span>
-                  </div>
-                  <div class="legend text-center decor">
-                    <h3 class="display-normal">
-                      <strong>Photo App</strong>
-                    </h3>
-                    <p>This is just a placeholder text.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- item  -->
-        <!--  <div class="col-12 col-sm-6 col-lg-4 center-vh">
-            <div class="section-content anim translateUp">
-              <div class="images text-center">
-                <div class="img-frame-normal">
-                  <div class="img-1 shadow">
-                    <a href="item.html#project_url">
-                      <img class="img" src="img/items/img-sample8.jpg" alt="Image">
-                    </a>
-                    <span class="price bottom">
-                      $39.99
-                    </span>
-                  </div>
-                  <div class="legend text-center decor">
-                    <h3 class="display-normal">
-                      <strong>Painting</strong>
-                    </h3>
-                    <p>This is just a placeholder text.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- item  -->
-       <!--   <div class="col-12 col-sm-6 col-lg-4 center-vh">
-            <div class="section-content anim">
-              <div class="images text-center">
-                <div class="img-frame-normal">
-                  <div class="img-1 shadow">
-                    <a href="item.html#project_url">
-                      <img class="img" src="img/items/img-sample9.jpg" alt="Image">
-                    </a>
-                    <span class="price bottom">
-                      $39.99
-                    </span>
-                  </div>
-                  <div class="legend text-center decor">
-                    <h3 class="display-normal">
-                      <strong>Software</strong>
-                    </h3>
-                    <p>This is just a placeholder text.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- item  -->
-        <!--  <div class="col-12 col-sm-6 col-lg-4 center-vh">
-            <div class="section-content anim translateDown">
-              <div class="images text-center">
-                <div class="img-frame-normal">
-                  <div class="img-1 shadow">
-                    <a href="item.html#project_url">
-                      <img class="img" src="img/items/img-sample10.jpg" alt="Image">
-                    </a>
-                    <span class="price bottom">
-                      $39.99
-                    </span>
-                  </div>
-                  <div class="legend text-center decor">
-                    <h3 class="display-normal">
-                      <strong>Home Decoration</strong>
-                    </h3>
-                    <p>This is just a placeholder text.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <!-- End of item list -->
-     <!-- </div> -->
-      <!-- End of section wrapper -->
-  <!--  </div> -->
-    <!-- End of list products section -->
-
-
-    <!-- Begin of register/login/signin section -->
-    <div class="section section-register fp-auto-height-responsive " data-section="register">
-      <!-- section cover -->
-      <!--<div class="section-cover-full bg-img" data-image-src="./img/sections/register.png">
-      </div>-->
-
-      <!-- Begin of section wrapper -->
-      <div class="section-wrapper fullwidth with-margin">
-
-        <!-- content -->
-        <div class="section-content anim">
-
-          <div class="row">
-
-            <!-- <div class="col-12 col-md-12 col-lg-5"> -->
-              <!-- Registration form container-->
-              <!-- <form class="send_email_form form-container form-container-transparent form-container-white"
-              method="post" action="ajaxserver/serverfile.php">
-                <div class="form-desc">
-                  <h2 class="display-4 display-title  anim-2">Subscribe</h2>
-                  <p class="invite  anim-3">Don't miss any new opportunity, Hurry up! register now :</p>
-                </div>
-                <div class="form-input  anim-4">
-                  <div class="form-group form-success-gone">
-                    <label for="reg-email">Email</label>
-                    <input id="reg-email" name="email" class="form-control-line form-control-white" type="email"
-                    required placeholder="your@email.address" data-validation-type="email"
-                    />
-                  </div>
-                  <div class="form-group mb-0">
-                    <div>
-                      <p class="email-ok invisible form-text-feedback form-success-visible">Your email has been registred, thank you.</p>
-                    </div>
-
-                    <div class="btns-action anim-3">
-                      <button id="submit-email" name="submit_email" class="btn btn-circicon btn-primary form-success-gone">
-                        <span class="icon">
-                          <i class="ion ion-checkmark"></i>
-                        </span>
-                        <span class="text">Subscribe</span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div> -->
-        <!-- end of content -->
-
-        <!-- aside footer -->
-        <div class="section-aside aside-bottom small-relative">
-          <div class="text-left text-md-right">
-            <p>&copy; 2018 Michael Legemah</p>
-          </div>
-          <div class="icons icons-margin">
-            <a class="icon-btn" href="https://www.linkedin.com/in/michaellegemah/">
-              <i class="icon fa fa-linkedin"></i>
-            </a>
-            <a class="icon-btn" href="https://www.youtube.com/Michaellegemah">
-              <i class="icon fa fa-youtube"></i>
-            </a>
-            <a class="icon-btn" href="https://github.com/MikeLegemah5799">
-              <i class="icon fa fa-github"></i>
-            </a>
-            <a class="icon-btn" href="https://twitter.com/MikeLegemah">
-              <i class="icon fa fa-twitter"></i>
-            </a>
-          </div>
-        </div>
-
-      </div>
-      <!-- End of section wrapper -->
-
-      <!-- Arrows scroll down/up -->
-      <footer class="section-footer scrolldown">
-        <a class="down">
-          <span class="icon"></span>
-          <span class="txt">Contact</span>
-        </a>
-      </footer>
-    </div>
-    <!-- End of register/login/signin section -->
-
-    <!-- Begin of contact section -->
-    <div class="section section-contact fp-auto-height-responsive no-slide-arrows " data-section="contact">
-      <!-- section cover -->
-      <!--<div class="section-cover-full bg-img" data-image-src="./img/sections/contact.png">
-      </div>-->
-
-      <!-- Begin of slide section wrapper -->
-      <div class="section-wrapper fullwidth  with-margin">
-        <!-- main content -->
-        <div class="row">
-          <div class="col-12 col-md-12 col-lg-6">
-            <!-- content -->
-            <div class="section-content anim text-left">
-              <!-- title and description -->
-              <div class="title-desc">
-                <div class="anim-2">
-                  <h2 class="display-4 display-title">Contact</h2>
-                  <p>Wanna hire me? Wanna trade recipes and stories?</p>
-                </div>
-                <div class="address-container anim-3">
-
-                  <div class="row">
-                    <div class="col-12 col-md-6 col-lg-6">
-                      <h4>Michael Legemah</h4>
-                      <p>Call: 516-273-1611</p>
-                      <p>Email: michaellegemah@gmail.com</p>
-
-                      <div class="icons icons-margin">
-                        <a class="icon-btn" href="https://www.linkedin.com/in/michaellegemah/">
-                          <i class="icon fa fa-linkedin"></i>
-                        </a>
-                        <a class="icon-btn" href="https://twitter.com/MikeLegemah">
-                          <i class="icon fa fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6">
-                      <h4>Long Island, NY</h4>
-                      <p>
-                        
-                        <br>
-                        <br>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6">
-
-          </div>
-        </div>
-
-
-        <!-- aside content -->
-        <!-- <div class="section-aside aside-bottom anim small-relative">
-          <div class="message-form">
-            <h4>Write message</h4>
-            <div class="form-container form-container-card"> -->
-              <!-- Message form container -->
-             <!-- <form class="send_message_form message form" method="post" action="ajaxserver/serverfile.php"
-              id="message_form">
-                <div class="form-group name">
-                  <input id="mes-name" name="name" type="text" placeholder="Name" class="form-control form-control-outline thick form-success-clean"
-                  required>
-                </div>
-                <div class="form-group email">
-                  <input id="mes-email" type="email" placeholder="Email" name="email" class="form-control form-control-outline thick form-success-clean"
-                  required>
-                </div>
-                <div class="form-group no-border">
-                  <textarea id="mes-text" placeholder="Message ..." name="message" class="form-control form-control-outline thick form-success-clean"
-                  required></textarea>
-
-                  <div>
-                    <p class="message-ok invisible form-text-feedback form-success-visible">Your message has been sent, thank you.</p>
-                  </div>
-                </div>
-
-                <div class="btns text-right">
-                  <button id="submit-message" class="btn btn-outline-white btn-round btn-fullNot email_b"
-                  name="submit_message">
-                    <span class="txt">Send Now</span>
-                    <span class="arrow-icon"></span>
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div> -->
-      </div>
-      <!-- End of slide section wrapper -->
-
-    </div>
-    <!-- End of contact section -->
-  </main>
-  <!-- END OF page main content -->
-
-  <!-- BEGIN OF page footer -->
-  <footer id="site-footer" class="page-footer">
-
-    <!-- Right content -->
     
-  </footer>
-  <!-- END OF site footer -->
+                <p>Michael Legemah is a Web Engineer/Developer and chef based in the New York City Area</p>
+    
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://twitter.com/MikeLegemah"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/michaellegemah/"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/MikeLegemah5799"><i class="fa fa-github"></i></a>
+                    </li>
+                </ul>
 
-  <!-- scripts -->
-  <!-- All Javascript plugins goes here -->
-  <script src="./js/vendor/jquery-1.12.4.min.js"></script>
-  <script src="./js/slick/slick.min.js"></script>
+            </div> <!-- end header-nav__content -->
 
-  <!-- All vendor scripts -->
-  <script src="./js/vendor/parallax.min.js"></script>
-  <script src="./js/vendor/scrolloverflow.min.js"></script>
-  <script src="./js/vendor/all.js"></script>
-  <script src="./js/particlejs/particles.min.js"></script>
+        </nav>  <!-- end header-nav -->
 
-  <!-- Countdown script -->
-  <script src="./js/jquery.downCount.js"></script>
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
 
-  <!-- Form script -->
-  <script src="./js/form_script.js"></script>
+    </header> <!-- end s-header -->
 
-  <!-- Javascript main files -->
-  <script src="./js/main.js"></script>
 
-  <script src="js/particlejs/particles-init.js"></script>
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/code-glasses.jpeg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Welcome to My Portfolio</h3>
+
+                <h1>
+                    I do code, coffee, and consistency. <br />Not neccessarily in that order.
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#contact" class="smoothscroll btn btn--stroke">
+                        Contact Me
+                    </a>
+                    <a href="#work" class="smoothscroll btn btn--stroke">
+                        Projects
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+            <li>
+                <a href="https://twitter.com/MikeLegemah"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/michaellegemah/"><i class="fa fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>
+            <li>
+                <a href="https://github.com/MikeLegemah5799"><i class="fa fa-github" aria-hidden="true"></i><span>Github</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">Hello There</h3>
+                <h1 class="display-1 display-1--light">I'm Mike Legemah</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p>
+                I'm a Web Developer with alot of experience in Front End stuff, but I've been known to mix it up with the Back End when I need to.
+                I love to learn new things. Web Development has been a passion of mine for years. I make it my business to find solutions for my clients that work.
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+                
+            <div class="col-block stats__col">
+                <div class="stats__count">20</div>
+                <h5>Languages</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">8000</div>
+                <h5>Cups of Coffee</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">109</div>
+                <h5>Projects Completed</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">124</div>
+                <h5>Happy Clients</h5> 
+            </div>
+
+        </div> <!-- end about-stats -->
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">What I Do</h3>
+                <h1 class="display-2">I can add value and help alleviate pain points in the following areas:</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-desktop"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Web Development</h3>
+                    <p>Build websites from the ground up. I've built websites in HTML, WordPress, Shopify, Sqaurespace etc. All sites are built with clean reuseable and scaleable code. All sites will work in all modern web browsers.</p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-lego-block"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Web Applications</h3>
+                    <p>Build interactive web applications in Javascript. I can plan it, assess the neccessary nuts and bolts and articulate it to stakeholders.</p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-map"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h2">Digital Strategy</h3>
+                    <p>I'm good for bouncing ideas off. As the old adage goes "Iron sharpens iron."</p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-search"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">SEO</h3>
+                    <p>I make sure that all websites are optimized using the best SEO techniques. Because all sites are done mobile first, it helps with Google rankings. I know how to help with keyword density and relevant content to help boost search rankings.</p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">UX Design</h3>
+                    <p>I've been known to occasionally dabble in User Experience Design.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-education"></i></div>
+                <div class="service-text">
+                    <h3 class="h2">Always Learning Something</h3>
+                    <p>I'm always laerning what the newwest technology is to get the job done.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- work
+    ================================================== -->
+    <section id='work' class="s-works">
+
+        <div class="intro-wrap">
+                
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Recent Work</h3>
+                    <h1 class="display-2 display-2--light">I love what I do, check out some of my latest projects</h1>
+                </div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+        <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-robofriends-full-1247.jpg" class="thumb-link" title="RoboFriends Web App" data-size="1050x700">
+                                    <img src="images/portfolio/robofriends-full-square.jpg" 
+                                         srcset="images/portfolio/robofriends-full-square.jpg 1x, images/portfolio/robofriends-full-square@2x.jpg 2x" alt="RoboFriends Web App">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    RoboFriends Web App
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Application 
+                                </p>
+                            </div>
+    
+                            <a href="https://n40lm0llj0.codesandbox.io/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>React Web Application you can view it <a href="https://n40lm0llj0.codesandbox.io/">here.</a></p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-cynopsis-top-women-full-1247.jpg" class="thumb-link" title="2018 Cynopsis Top Women In Digital" data-size="1050x700">
+                                    <img src="images/portfolio/cynopsis-top-women-rect.jpg" 
+                                         srcset="images/portfolio/cynopsis-top-women-rect.jpg 1x, images/portfolio/cynopsis-top-women-rect@2x.jpg 2x" alt="2018 Cynopsis Top Women In Digital">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    2018 Cynopsis Women In Digital 
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Website
+                                </p>
+                            </div>
+    
+                            <a href="http://www.cynopsis.com/events/2018-top-women-in-digital/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>A Website built using WordPress for the 2018 Cynopsis Women In Digital Awards. You can view it <a href="http://www.cynopsis.com/events/2018-top-women-in-digital/" target="_blank">here.</a></p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-js-dice-1247.jpg" class="thumb-link" title="JS Dice" data-size="1050x700">
+                                    <img src="images/portfolio/js-dice-square.jpg"
+                                         srcset="images/portfolio/js-dice-square.jpg 1x, images/portfolio/js-dice-square@2x.jpg 2x" alt="JS Dice">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    JS Dice Game
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Application
+                                </p>
+                            </div>
+    
+                            <a href="https://mikelegemah5799.github.io/js-dice/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>A Web Application built in Vanilla Javascript. You can view it <a href="https://mikelegemah5799.github.io/js-dice/" target="_blank">here.</a></p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-bmi-calculator-1247.jpg" class="thumb-link" title="BMI Calculator" data-size="1050x700">
+                                    <img src="images/portfolio/bmi-calculator-square.jpg" 
+                                         srcset="images/portfolio/bmi-calculator-square.jpg 1x, images/portfolio/bmi-calculator-square@2x.jpg 2x" alt="BMI Calculator">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    BMI Calculator
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Application
+                                </p>
+                            </div>
+    
+                            <a href="https://pw1r6yroj0.codesandbox.io/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>A Web Application built with React. You can view it <a href="https://pw1r6yroj0.codesandbox.io/"></a></p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-upscale-pads-1247.jpg" class="thumb-link" title="Upscale Pads" data-size="1050x700">
+                                    <img src="images/portfolio/upscale-pads-rect.jpg" 
+                                         srcset="images/portfolio/upscale-pads-rect.jpg 1x, images/portfolio/upscale-pads-rect@2x.jpg 2x" alt="Optioncare">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Upscale Pads
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Application
+                                </p>
+                            </div>
+    
+                            <a href="http://optioncare.com" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>A Web Application that lists upscale properties built with React. You can view the repo <a href="https://github.com/MikeLegemah5799/upscale-pads" target="_blank">here</a></p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-marinela-usa-1247.jpg" class="thumb-link" title="Marinela USA Website" data-size="1050x700">
+                                    <img src="images/portfolio/marinela-usa-square.jpg"
+                                         srcset="images/portfolio/marinela-usa-square.jpg 1x, images/portfolio/marinela-usa-square@2x.jpg 2x" alt="Marinela USA Website">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Marinela USA Website
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Website
+                                </p>
+                            </div>
+    
+                            <a href="https://marinelausa.com/en" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Website built for Marinela USA in English and Spanish. You can view it <a href="https://marinelausa.com/en" target="_blank">here.</a></p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                </div> <!-- end masonry -->
+            </div> <!-- end col-full -->
+        </div> <!-- end works-content -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="tech" class="s-clients">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Technology and Software</h3>
+                <h1 class="display-2">I have the privilege to be experienced in these technologies and software:</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row clients-outer" data-aos="fade-up">
+            <div class="col-full">
+                <div class="clients">
+                    
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/react.png" alt="React Logo">React</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/angular.png" alt="Angular Logo">Angular</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/sass.png" alt="Sass Logo">Sass</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/html5.png" alt="HTML5 Logo">HTML</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/bootstrap.png" alt="Bootstrap Logo">Bootstrap</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/docker.png" alt="Docker Logo">Docker</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/wordpress.png" alt="WordPress Logo">WordPress</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/shopify.png" alt="Shopify Logo">Shopify</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/typescript.png" alt="Typescript Logo">Typescript</a> 
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/webpack.png" alt="Webpack Logo">Webpack</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/zeplin.png" alt="Zeplin Logo">Zeplin</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/aws.png" alt="Amazon Web Services Logo">Amazon Web Services</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/babel.png" alt="Babel Logo">Babel</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/bower.png" alt="Bower Logo">Bower</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/compass.png" alt="Compass Logo">Compass</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/yarn.png" alt="Yarn Logo">Yarn</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/visual-studio-code.png" alt="Visual Studio Code Logo">Visual Studio Code</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/sketch.png" alt="Sketch Logo">Sketch</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/postgresql.png" alt="PostgreSQL Logo">PostgreSQL</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/mysql.png" alt="MySQL Logo">MySQL</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/elasticsearch.png" alt="ElasticSearch Logo">ElasticSearch</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/foundation.png" alt="Foundation Logo">Foundation</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/screaming-frog.png" alt="Screaming Frog Logo">Screaming Frog</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/php.png" alt="PHP Logo">PHP</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/gigya.png" alt="Gigya Logo">Gigya</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/photoshop.png" alt="Photoshop Logo">Photoshop</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/gimp.png" alt="Gimp Logo">Gimp</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/pantheon.png" alt="Pantheon Logo">Pantheon</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/git.png" alt="Git Logo">Git</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/npm.png" alt="NPM Logo">NPM</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/grunt.png" alt="Grunt Logo">Grunt</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/nodejs.png" alt="Node.JS Logo">Node.JS</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/gulp.png" alt="Gulp Logo">Gulp</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/mercurial.png" alt="Mercurial Logo">Mercurial</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/handlebars.png" alt="Handlebars Logo">Handlebars</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/mailchimp.png" alt="Mailchimp Logo">Mailchimp</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/jenkins.png" alt="Jenkins Logo">Jenkins</a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/kibana.png" alt="Kibana Logo">Kibana</a>
+                </div> <!-- end clients -->
+            </div> <!-- end col-full -->
+        </div> <!-- end clients-outer -->
+
+        <div class="row clients-testimonials" data-aos="fade-up">
+            <div class="col-full">
+                <div class="testimonials">
+
+                    <div class="testimonials__slide">
+
+                        <p>&ldquo;Mike has a very solid front-end development experience in a scrum/agile development environment, with deep expertise in Wordpress and Shopify. He is adept at creating customer-focused, mobile-responsive UI with UX in mind. Self-directed and comfortable working on a small team with significant responsibility, Mike is a reliable, polite, kind and humble guy everyone wants to have on their side. It was a real pleasure to work with Mike.&rdquo;</p>
+
+                        <img src="images/avatars/alla.jfif" alt="Alla Gringaus" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Alla Gringaus</span> 
+                            <span class="testimonials__pos">Director, UX &amp; Design, American Kennel Club</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+                        
+                        <p>&ldquo;Michael played an integral part in the growth of Robert Half Technology's Salaried Professional Services. During his tenure with Robert Half Technology's Salaried Professional Services, Michael partnered with multiple clients, leading their Web &amp; Creative Development initiatives. Michael collaborated with senior leadership &amp; c-level executives to identify &amp; translate specific needs bringing them to life, in addition to being a trusted adviser on overall direction of the engagements. Michael always stayed one step ahead of tech trends and best practices. Being a motivated team player and leader, Michael has a keen eye for the bigger picture. Throughout his engagements, Michael was highly recommended for his Full Stack Development, Front End Development, and creative eye for design. Michael is a valuable asset to any organization.&rdquo;</p>
+
+                        <img src="images/avatars/mo-akram.jpg" alt="Mo Akram" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Mo Akram</span> 
+                            <span class="testimonials__pos">Branch Manager, Robert Half Technology</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+                        
+                        <p>&ldquo;Michael started a temporary assignment with our organization a few years ago. It started as a few week assignment, and has continued to be extended because of his great work. He is professional and has a wonderful demeanor that works well with clients.&rdquo;</p>
+
+                        <img src="images/avatars/mary.jfif" alt="Mary Pinto-Meyer" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Mary Pinto-Meyer</span> 
+                            <span class="testimonials__pos">Regional HR Director, Access Intelligence</span>
+                        </div>
+
+                    </div>
+
+                </div><!-- end testimonials -->
+                
+            </div> <!-- end col-full -->
+        </div> <!-- end client-testimonials -->
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Me</h3>
+                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+            
+            <div class="contact-primary">
+
+                <h3 class="h6">Send Me A Message</h3>
+
+                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+
+            </div> <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5>Where I'm at sometimes...</h5>
+                        <p>
+                            South Hempstead, NY<br>
+                            11550
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Email Me At</h5>
+                        <p>
+                            michaellegemah@gmail.com
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Call Me At</h5>
+                        <p>
+                            Phone: (516)273-1611
+                        </p>
+                    </div>
+
+                    <ul class="contact-social">
+                        <li>
+                            <a href="https://twitter.com/MikeLegemah"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/michaellegemah/"><i class="fa fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/MikeLegemah5799"><i class="fa fa-github" aria-hidden="true"></i><span>Github</span></a>
+                        </li>
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="row footer-main">
+
+            <div class="col-six tab-full left footer-desc">
+                    <a class="twitter-timeline" data-lang="en" data-width="400" data-height="300" data-theme="dark" data-link-color="#89D2DC" href="https://twitter.com/MikeLegemah?ref_src=twsrc%5Etfw">Tweets by MikeLegemah</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+
+            <div class="col-six tab-full right footer-subscribe">
+
+                <h4>My Coding Tools</h4>
+                <p></p>
+
+
+            </div>
+
+        </div> <!-- end footer-main -->
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Michael Legemah 2018</span> 
+                    <!-- <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span> -->	
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
