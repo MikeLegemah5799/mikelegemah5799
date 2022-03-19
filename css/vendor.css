@@ -1386,10 +1386,12 @@ over element that should close gallery
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+
     /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
     .pswp--svg .pswp__button, .pswp--svg .pswp__button--arrow--left:before, .pswp--svg .pswp__button--arrow--right:before {
         background-image: url(images/photoswipe/default-skin.svg);
     }
+
     .pswp--svg .pswp__button--arrow--left, .pswp--svg .pswp__button--arrow--right {
         background: none;
     }
@@ -1658,7 +1660,7 @@ a.pswp__share--download:hover {
     font-size: 13px;
     padding: 10px;
     line-height: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
 }
 
 .pswp__caption--empty {
@@ -1774,6 +1776,7 @@ a.pswp__share--download:hover {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -1785,6 +1788,7 @@ a.pswp__share--download:hover {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -1796,10 +1800,12 @@ a.pswp__share--download:hover {
         -webkit-transform: rotate(0);
         transform: rotate(0);
     }
+
     50% {
         -webkit-transform: rotate(-140deg);
         transform: rotate(-140deg);
     }
+
     100% {
         -webkit-transform: rotate(0);
         transform: rotate(0);
@@ -1811,10 +1817,12 @@ a.pswp__share--download:hover {
         -webkit-transform: rotate(0);
         transform: rotate(0);
     }
+
     50% {
         -webkit-transform: rotate(-140deg);
         transform: rotate(-140deg);
     }
+
     100% {
         -webkit-transform: rotate(0);
         transform: rotate(0);
